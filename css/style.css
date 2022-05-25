@@ -1,0 +1,13 @@
+
+#anima-div{
+    background-image: url('../img/Sprite-Eevee.png');
+    width: 600px;
+    height: 480px;
+    animation: anima-sprit 1s steps(16) infinite;
+    background-repeat: no-repeat;
+}
+
+@keyframes anima-sprit{
+    from{background-position: 0;}
+    to{background-position: -9670px;}
+}
